@@ -17,19 +17,12 @@
         <CommandBar>
             <CommandBar.PrimaryCommands>
                 <AppBarButton
-                    x:Name="ForwardAppBarButton"
-                    x:Uid="ForwardAppBarButton"
-                    Click="ForwardAppBarButton_Click"
-                    Icon="Forward"
-                    Label="forward"/>
-            </CommandBar.PrimaryCommands>
-            <CommandBar.SecondaryCommands>
-                <AppBarButton
                     x:Name="HomeAppBarButton"
                     x:Uid="HomeAppBarButton"
                     Click="HomeAppBarButton_Click"
-                    Label="home"/>
-            </CommandBar.SecondaryCommands>
+                    Icon="Home"
+                    Label="Home"/>
+            </CommandBar.PrimaryCommands>
         </CommandBar>
     </Page.BottomAppBar>
 </Page>
